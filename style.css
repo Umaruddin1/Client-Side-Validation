@@ -1,0 +1,70 @@
+body {
+    background-image: url('background-sign.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+#signup-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+}
+
+#signup-form div {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: #333;
+    color: #fff;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4444;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.guidance-message {
+    color: #aaa;
+    font-size: 12px;
+}
+
+
+

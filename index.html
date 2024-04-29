@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="signup-form">
+        <div>
+            <input type="text" id="username" placeholder="Username">
+            <span id="username-error" class="error-message"></span>
+            <span id="username-guidance" class="guidance-message">Username must be alphanumeric and at least 6 characters long.</span>
+        </div>
+        
+        <div>
+            <input type="email" id="email" placeholder="Email">
+            <span id="email-error" class="error-message"></span>
+            <span id="email-guidance" class="guidance-message">Please enter a valid email address.</span>
+        </div>
+        
+        <div>
+            <input type="password" id="password" placeholder="Password">
+            <span id="password-error" class="error-message"></span>
+            <span id="password-guidance" class="guidance-message">Password must be at least 6 characters long.</span>
+        </div>
+        
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
